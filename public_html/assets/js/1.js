@@ -3,7 +3,9 @@
 
 $(function(){
   
-  
+  $(window).load(function() {
+    var mySound1 = new MySound1();
+  });
   
 });
 
